@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Notes</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="add_new_note">Add New Note</string>
+    <string name="open_profile">Open profile</string>
+    <string name="upload_image">Upload Image</string>
+</resources>
