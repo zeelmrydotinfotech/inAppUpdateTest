@@ -17,8 +17,8 @@ import android.os.Build;
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationManagerCompat;
 
-import com.rydotinfotech.mynotes.R;
 import com.tridhyaintuit.mynotes.Activities.AddNote;
+import com.tridhyaintuit.mynotes.R;
 
 public class NotificationReceiver extends BroadcastReceiver {
 

@@ -20,8 +20,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.rydotinfotech.mynotes.R;
 import com.tridhyaintuit.mynotes.Boadcasts.NotificationReceiver;
+import com.tridhyaintuit.mynotes.R;
 
 import java.util.Calendar;
 

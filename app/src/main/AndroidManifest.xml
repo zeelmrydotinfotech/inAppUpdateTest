@@ -70,14 +70,13 @@
         <receiver android:name="com.tridhyaintuit.mynotes.Boadcasts.NotificationReceiver" />
         <receiver android:name="com.tridhyaintuit.mynotes.Boadcasts.ReceiverToast" />
         <receiver android:name="com.tridhyaintuit.mynotes.Boadcasts.ReceiverDismiss" />
-
         <receiver
             android:name="com.tridhyaintuit.mynotes.Boadcasts.RelaunchApplicationOnUpdateReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.ACTION_PACKAGE_REPLACED" />
                 <data
-                    android:path="com.rydotinfotech.mynotes"
+                    android:path="com.tridhyaintuit.mynotes"
                     android:scheme="package" />
             </intent-filter>
         </receiver>

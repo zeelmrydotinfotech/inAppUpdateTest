@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.rydotinfotech.mynotes.R;
+import com.tridhyaintuit.mynotes.R;
 import com.tridhyaintuit.mynotes.models.AppDatabase.Note;
 
 import java.util.ArrayList;

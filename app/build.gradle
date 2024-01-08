@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.rydotinfotech.mynotes'
+    namespace 'com.tridhyaintuit.mynotes'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.rydotinfotech.mynotes"
+        applicationId "com.tridhyaintuit.mynotes"
         minSdk 21
         targetSdk 33
         versionCode 10
@@ -32,9 +32,9 @@ android {
 
 dependencies {
 
-    implementation 'com.google.firebase:firebase-auth:22.0.0'
-    implementation 'com.google.firebase:firebase-messaging:23.1.2'
-    implementation 'com.google.firebase:firebase-storage:20.2.1'
+    implementation 'com.google.firebase:firebase-auth:22.3.0'
+    implementation 'com.google.firebase:firebase-messaging:23.4.0'
+    implementation 'com.google.firebase:firebase-storage:20.3.0'
     def room_version = "2.4.3"
     def lifecycle_version = "2.5.1"
 

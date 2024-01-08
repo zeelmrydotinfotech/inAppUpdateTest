@@ -26,7 +26,7 @@ import com.google.android.play.core.install.model.UpdateAvailability;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.rydotinfotech.mynotes.R;
+import com.tridhyaintuit.mynotes.R;
 
 public class Login extends AppCompatActivity {
 

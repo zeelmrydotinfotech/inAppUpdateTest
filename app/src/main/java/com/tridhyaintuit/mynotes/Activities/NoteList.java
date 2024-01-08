@@ -20,8 +20,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.rydotinfotech.mynotes.R;
 import com.tridhyaintuit.mynotes.Adapter.NoteAdapter;
+import com.tridhyaintuit.mynotes.R;
 import com.tridhyaintuit.mynotes.models.AppDatabase.Note;
 import com.tridhyaintuit.mynotes.models.AppDatabase.NoteViewModel;
 
