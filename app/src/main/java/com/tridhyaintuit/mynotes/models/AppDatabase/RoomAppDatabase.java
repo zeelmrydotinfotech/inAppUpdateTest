@@ -11,12 +11,13 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@Database(entities = {Note.class},version = 1)
+@Database(entities = {Note.class, ProfileData.class},version = 2_2)
 public abstract class RoomAppDatabase extends RoomDatabase {
 
     private static RoomAppDatabase roomAppDatabase;
 
     public abstract DaoNote daoNote();
+    public abstract DaoProfile daoProfile();
 
     public static synchronized RoomAppDatabase getRoomAppDatabase(Context context){
         if (roomAppDatabase == null){
@@ -36,6 +37,7 @@ public abstract class RoomAppDatabase extends RoomDatabase {
             super.onCreate(db);
 
             DaoNote daoNote = roomAppDatabase.daoNote();
+            DaoProfile daoProfile = roomAppDatabase.daoProfile();
 
             ExecutorService executors = Executors.newSingleThreadExecutor();
 
